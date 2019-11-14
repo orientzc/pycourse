@@ -19,7 +19,7 @@ def getHtml(url, code="utf-8"):
     
 def main():  
     print("start")
-    baidunameurl='http://www.baidu.com/s?wd=你的名字'  
+    baidunameurl='http://www.baidu.com/s?wd=赵灿'  
     doc= pq(getHtml(baidunameurl))
     mlist = doc('#content_left h3.t a').items()
     i=0
